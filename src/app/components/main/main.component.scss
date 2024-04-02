@@ -1,0 +1,21 @@
+.filter {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: space-between;
+
+  .filter-title {
+    font-size: 20px;
+  }
+
+  .filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .button-margin {
+      margin-right: 10px;
+    }
+  }
+}

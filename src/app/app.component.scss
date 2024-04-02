@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+
+  .block {
+    min-width: 670px;
+  }
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  .nav-list-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+
+.header-margin {
+  margin-bottom: 20px;
+}

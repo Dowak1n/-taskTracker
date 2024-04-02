@@ -1,0 +1,12 @@
+<mat-card>
+  <mat-card-content>
+    <div>{{ taskData.heading }}</div>
+    <div>{{ taskData.name }} - {{ taskData.deadline | date }}</div>
+    <div>Приоритет: {{ taskData.priority }}</div>
+    <div>Статус: {{ taskData.status }}</div>
+    <div>Исполнитель: {{ taskData.performers }}</div>
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <button mat-raised-button routerLink="/view-tasks">Назад</button>
+  </mat-card-actions>
+</mat-card>

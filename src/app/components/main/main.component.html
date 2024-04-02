@@ -1,0 +1,14 @@
+<div class="filter">
+  <div class="filter-title">
+    Панель фильтрации
+  </div>
+  <div class="filter-button">
+    <button mat-stroked-button class="button-margin" (click)="sortByStatus()">по статусу</button>
+    <button mat-stroked-button class="button-margin" (click)="sortByPerformers()">по исполнителю</button>
+    <button mat-stroked-button (click)="sortByDeadline()">по дате дедлайна</button>
+  </div>
+</div>
+
+<div *ngFor="let item of userData$ | async">
+  <task-component [data]="item"></task-component>
+</div>
